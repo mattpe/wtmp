@@ -2,6 +2,15 @@
 
 ## Contents
 
+- Variables
+- Operators
+- Types
+- Scopes
+- Control structures
+- Functions
+- Array
+- Exercises for Week 1
+
 ## About ES6
 
 - short for ECMAScript 6, also known as ES2015
@@ -67,10 +76,10 @@ TypeError: Assignment to constant variable.
 
 ## Arithmetic, string and boolean operations
 
-- Arithmetic: +, - (both unary and binary), *, /, %, ++, --, +=, -=, *=, /=, %=
-- Boolean: &&, ||, !, ==, !=, ===, !==, (>, <, >=, <=)
-- String: +, etc
-- Array: push(), pop(), etc
+- Arithmetic: `+`, `-` (both unary and binary), `*`, `/`, `%`, `++`, `--`, `+=`, `-=`, `*=`, `/=`, `%=`
+- Boolean: `&&`, `||`, `!`, `==`, `!=`, `===`, `!==`, (`>`, `<`, `>=`, `<=`)
+- String: `+`, etc
+- Array: `.push()`, `.pop()`, etc.
 - Precedence: "normal" mathematic rules (* and / before + and - etc) apply. However, relying on the precedence rules is not always a good idea - using parentheses often clarifies
 
 ```js

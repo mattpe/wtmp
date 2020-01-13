@@ -5,7 +5,7 @@ Javascript programming material and exercises.
 ## Schedule
 
 1. [Week 1 - Toolchain](docs/01-tools.md)
-2. [Week 1 - ES6 Basics](docs/01-es6-basics.md)
+2. [Week 1 - ES6 Basics](docs/02-es6-basics.md)
 3. Week 2 - TBA
 4. Week 3 - TBA
 5. Week 4 - TBA
