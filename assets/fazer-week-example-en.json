@@ -1,0 +1,1358 @@
+{
+  "WeekNumber": 3,
+  "LunchMenus": [
+    {
+      "DayOfWeek": "Monday",
+      "Date": "13.1.2020",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Spinach crêpes",
+              "RecipeId": 5920,
+              "Diets": [
+                "*",
+                "A"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Lingonberry jam",
+              "RecipeId": 76,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Boiled potatoes",
+              "RecipeId": 30,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Mushroom and bean casserole",
+              "RecipeId": 16771,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Chili-flavoured wheat",
+              "RecipeId": 17399,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Vegetarian soup",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Tortilla chips",
+              "RecipeId": -1,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Pureed root vegetable soup with smoked cheese",
+              "RecipeId": 13673,
+              "Diets": [
+                "A",
+                "G",
+                "VL"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Russian-style saithe",
+              "RecipeId": 16244,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Boiled potatoes with dill",
+              "RecipeId": 67,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Chicken and tomato pasta casserole",
+              "RecipeId": 14223,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Turkey in rose pepper sauce",
+              "RecipeId": 4131,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Vegetable rice",
+              "RecipeId": 14943,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Apricot and mango curd dessert",
+              "RecipeId": 12046,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Iceberg lettuce",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kasvis 1, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kasvis 2, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Hedelmä, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Green olives",
+              "RecipeId": -1,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Salad dressing with garlic",
+              "RecipeId": -1,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Vinaigrette",
+              "RecipeId": -1,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Balsamic vinegar",
+              "RecipeId": -1,
+              "Diets": [
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Oil",
+              "RecipeId": -1,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Mixed seeds",
+              "RecipeId": -1,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Herb and cabbage salad",
+              "RecipeId": 10602,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Chili-marinated chickpeas",
+              "RecipeId": 1832,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Date hummus",
+              "RecipeId": 16674,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Tuesday",
+      "Date": "14.1.2020",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Vegetable filling",
+              "RecipeId": 3469,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Whole grain wheat tortilla",
+              "RecipeId": 15802,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Vegetarian soup",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Tortilla chips",
+              "RecipeId": -1,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Cheese and chickpea soup",
+              "RecipeId": 8311,
+              "Diets": [
+                "A",
+                "L",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Chicken and blue cheese sauce",
+              "RecipeId": 11114,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Whole grain organic pasta",
+              "RecipeId": 1032,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Cabbage and minced meat casserole",
+              "RecipeId": 17573,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Lingonberry jam",
+              "RecipeId": 76,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Chicken fillet filled with cheese and bell pepper",
+              "RecipeId": 151,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Lime mayonnaise",
+              "RecipeId": 3640,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Whole grain wheat grits",
+              "RecipeId": 92,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Beans",
+              "RecipeId": 13009,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Kasvis 1, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kasvis 2, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Hedelmä, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Mandarin slices",
+              "RecipeId": -1,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Iceberg lettuce, chinese cabbage, cucumber and pea salad",
+              "RecipeId": 10432,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Rojo and spinach pasta salad",
+              "RecipeId": 18040,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Chili-marinated chickpeas",
+              "RecipeId": 1832,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Date hummus",
+              "RecipeId": 16674,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Wednesday",
+      "Date": "15.1.2020",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Carrot and pesto lasagnette",
+              "RecipeId": 12032,
+              "Diets": [
+                "A",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Organic tofu and vegetable sauce",
+              "RecipeId": 9733,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Whole grain rice\n",
+              "RecipeId": 90,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": "Vegetarian soup",
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Tortilla chips",
+              "RecipeId": -1,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Three onion soup with croutons",
+              "RecipeId": 476,
+              "Diets": [
+                "*",
+                "A",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Creamy potato and rainbow trout casserole",
+              "RecipeId": 17296,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "BBQ pulled pork",
+              "RecipeId": 12124,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Potato wedges with garlic",
+              "RecipeId": 10416,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Roasted onion and zucchini",
+              "RecipeId": 8876,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Strawberry curd dessert",
+              "RecipeId": 12088,
+              "Diets": [
+                "A",
+                "G",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Iceberg lettuce",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kasvis 1, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kasvis 2, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Hedelmä, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Red cabbage salad with apple",
+              "RecipeId": 11106,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Couscous and olive salad",
+              "RecipeId": 18035,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Thursday",
+      "Date": "16.1.2020",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Carrot and cabbage patties",
+              "RecipeId": 18461,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Black bean salsa",
+              "RecipeId": 8986,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Wholemeal barley",
+              "RecipeId": 5843,
+              "Diets": [
+                "*",
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Minced meat casserole with a cheese crust",
+              "RecipeId": 567,
+              "Diets": [
+                "*",
+                "A"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Cod in chili and coconut sauce",
+              "RecipeId": 16470,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Lemon and potato puree",
+              "RecipeId": 1175,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Steamed broccoli",
+              "RecipeId": 1533,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Caramel whipped cream",
+              "RecipeId": 6349,
+              "Diets": [
+                "A",
+                "G"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Iceberg lettuce",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kasvis 1, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kasvis 2, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Hedelmä, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Beetroot",
+              "RecipeId": -1,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Sesame-marinated broccoli",
+              "RecipeId": 10578,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Carrot and tarragon lentil",
+              "RecipeId": 16999,
+              "Diets": [
+                "A",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Friday",
+      "Date": "17.1.2020",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Chickpea and sweet potato casserole",
+              "RecipeId": 7838,
+              "Diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Whole grain rice\n",
+              "RecipeId": 90,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Pork in mustard sauce",
+              "RecipeId": 415,
+              "Diets": [
+                "A",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Boiled potatoes",
+              "RecipeId": 30,
+              "Diets": [
+                "*",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Tuna and spinach lasagnette",
+              "RecipeId": 7679,
+              "Diets": [
+                "A",
+                "L"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Overdone beef and pork in redwine-mushroom sauce",
+              "RecipeId": 12119,
+              "Diets": [
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Roasted potatoes",
+              "RecipeId": 10413,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Roasted carrots",
+              "RecipeId": 3667,
+              "Diets": [
+                "G",
+                "L",
+                "M"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        },
+        {
+          "SortOrder": 0,
+          "Name": null,
+          "Price": null,
+          "Meals": [
+            {
+              "Name": "Iceberg lettuce",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Kasvis 1, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Hedelmä, kausi",
+              "RecipeId": -1,
+              "Diets": [],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Clear coleslaw",
+              "RecipeId": 10601,
+              "Diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Pea, dill and cappelli salad",
+              "RecipeId": 16769,
+              "Diets": [
+                "A",
+                "L",
+                "M",
+                "Veg"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            },
+            {
+              "Name": "Beans seasoned with herbs and garlic",
+              "RecipeId": 8899,
+              "Diets": [
+                "G",
+                "L",
+                "M",
+                "Veg",
+                "VS"
+              ],
+              "Nutrients": null,
+              "IconUrl": ""
+            }
+          ]
+        }
+      ],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Saturday",
+      "Date": "18.1.2020",
+      "SetMenus": [],
+      "Html": ""
+    },
+    {
+      "DayOfWeek": "Sunday",
+      "Date": "19.1.2020",
+      "SetMenus": [],
+      "Html": ""
+    }
+  ],
+  "RequireDietFilters": [
+    {
+      "Name": "GlutenFree",
+      "TranslatedName": "Gluten free",
+      "Diet": "G",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "LactoseFree",
+      "TranslatedName": "Lactose free",
+      "Diet": "L",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": [
+        "M"
+      ]
+    },
+    {
+      "Name": "LowLactose",
+      "TranslatedName": "Low lactose",
+      "Diet": "VL",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": [
+        "L",
+        "M"
+      ]
+    },
+    {
+      "Name": "NoMilk",
+      "TranslatedName": "Milk-free",
+      "Diet": "M",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Healthy",
+      "TranslatedName": "Wellbeing",
+      "Diet": "*",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Vegetarian",
+      "TranslatedName": "Suitable for vegans",
+      "Diet": "Veg",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "ExcludeDietFilters": [
+    {
+      "Name": "Garlic",
+      "TranslatedName": "Contains fresh garlic",
+      "Diet": "VS",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    },
+    {
+      "Name": "Allergens",
+      "TranslatedName": "Contains allergens",
+      "Diet": "A",
+      "Selected": false,
+      "Inactive": false,
+      "AdditionalVisibleDiets": []
+    }
+  ],
+  "RestaurantDietFilters": [],
+  "LastWeekMenuStartDate": null,
+  "NextWeekMenuStartDate": null,
+  "ProductDataSheets": []
+}

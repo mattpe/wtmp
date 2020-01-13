@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "generated_timestamp": 1578933671,
+    "ref_url": "https://www.sodexo.fi/ravintolat/helsinki/metropolia-leiritie",
+    "ref_title": "Metropolia Leiritie"
+  },
+  "timeperiod": "13.1. - 19.1.",
+  "mealdates": [
+    {
+      "date": "Maanantai",
+      "courses": {
+        "1": {
+          "title_fi": "Paistettuja nakkeja, sipuli-kermakastiketta ja perunasosetta",
+          "title_en": "Fried frankfurter sausages, cremy onion sauce and mashed potatoes",
+          "category": "Kotiruoka",
+          "properties": "",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "2": {
+          "title_fi": "Broileria Korma ja täysjyväriisiä",
+          "title_en": "Chiken Korma and whole grain rice",
+          "category": "Kotiruoka 2",
+          "properties": "G, M",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "3": {
+          "title_fi": "Tomaattista peruna-härkisvuokaa",
+          "title_en": "Tomato and potato casserole with pulled fava beans ",
+          "category": "Kasvisruoka",
+          "properties": "G, VL",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "4": {
+          "title_fi": "Juuressosekeittoa,lisäkesalaatti kahdella napaksella",
+          "title_en": "Root vegetable puree soup, side salad with two napas",
+          "category": "Kasviskeitto",
+          "properties": "G, L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "5": {
+          "title_fi": "Lounaspatonki metwursti-juustotäytteellä",
+          "title_en": "Lunch baguette with salami and cheese filling",
+          "category": "Leipälounas",
+          "properties": "L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "6": {
+          "title_fi": "Mansikka-basilikasmoothieta",
+          "title_en": "Strawberry and basilika smoothie",
+          "category": "Jälkiruoka",
+          "properties": "G",
+          "price": "0,55 € / 0,65 € / 0,75 €"
+        },
+        "7": {
+          "title_fi": "Juusto / Kana / Kasvis / Halloumi burgeri ja ranskalaiset",
+          "title_en": "Cheese / Chicken / Vege / Halloum Burger and french fries",
+          "category": "Grilli 1",
+          "properties": "VL",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        },
+        "8": {
+          "title_fi": "Tulista porsas-nuudeliwokkia",
+          "title_en": "Spicy pork noodel wok",
+          "category": "Grilli 3",
+          "properties": "G, M",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        },
+        "9": {
+          "title_fi": "Tulista nyhtökaura-nuudeliwokkia",
+          "title_en": "Spicy pulled oat noodel wok",
+          "category": "Grilli 4",
+          "properties": "M",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        }
+      }
+    },
+    {
+      "date": "Tiistai",
+      "courses": {
+        "1": {
+          "title_fi": "Tomaattista kebab-kastiketta, täysjyväriisiä ja jalapenoja",
+          "title_en": "Kebab in tomato sauce, whole grain rice and jalapenos",
+          "category": "Kotiruoka",
+          "properties": "G, M",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "2": {
+          "title_fi": "Lohi-pennevuokaa",
+          "title_en": "Salmon penne pasta cassarole",
+          "category": "Kotiruoka 2",
+          "properties": "L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "3": {
+          "title_fi": "Uuniperuna yrtti-raejuustotäytteellä",
+          "title_en": "Baked potato and herb-cottage cheese filling",
+          "category": "Kasvisruoka",
+          "properties": "G, L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "4": {
+          "title_fi": "Kesäkurpitsa-vuohenjuustokeittoa,lisäkesalaatti kahdella napaksella",
+          "title_en": "Courgette and goat cheese puree soup, side salad with two napas",
+          "category": "Kasviskeitto",
+          "properties": "G, VL",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "5": {
+          "title_fi": "Lounaspatonki broilertäytteellä",
+          "title_en": "Lunch baguette with chiken filling",
+          "category": "Leipälounas",
+          "properties": "M",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "6": {
+          "title_fi": "Ruusunmarjakiisseliä",
+          "title_en": "Rosehip kissel",
+          "category": "Jälkiruoka",
+          "properties": "G, M",
+          "price": "0,55 € / 0,65 € / 0,75 €"
+        },
+        "7": {
+          "title_fi": "Juusto / Kana / Kasvis / Halloumi burger ja ranskalaiset",
+          "title_en": "Cheese / Chicken / Vege / Halloum burger and french fries",
+          "category": "Grilli 1",
+          "properties": "VL",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        },
+        "8": {
+          "title_fi": "Broiler Caesarsalaattia",
+          "title_en": "Caesars salad with chiken",
+          "category": "Grilli 3",
+          "properties": "",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        }
+      }
+    },
+    {
+      "date": "Keskiviikko",
+      "courses": {
+        "1": {
+          "title_fi": "Jauhelihapihvi, ruskeaa kermakastiketta ja keitettyä perunaa",
+          "title_en": "Hamburger, cream sauce and poiled potates",
+          "category": "Kotiruoka",
+          "properties": "L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "2": {
+          "title_fi": "Goalaista kalacurrya ja täysjyväriisiä",
+          "title_en": "Goan style fish curry and whole grain rice",
+          "category": "Kotiruoka 2",
+          "properties": "G, M",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "3": {
+          "title_fi": "vegaani Chili sin carne ja täysjyväriisi",
+          "title_en": "Vegan Chili sin carne and whole grain rice",
+          "category": "Vegaani",
+          "properties": "G, M",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "4": {
+          "title_fi": "Parsakeittoa,lisäkesalaatti kahdella napaksella",
+          "title_en": "Broccoli puree soup, side salad with two napas",
+          "category": "Kasviskeitto",
+          "properties": "L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "5": {
+          "title_fi": "Lounaspatonki bbq-kalkkunatäytteellä",
+          "title_en": "Lunch baguette with BBQ-turkey filling",
+          "category": "Leipälounas",
+          "properties": "M",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "6": {
+          "title_fi": "Sitruuna-salmiakkirahkaa",
+          "title_en": "Lemon and salty liguorice quark",
+          "category": "Jälkiruoka",
+          "properties": "G, L",
+          "price": "0,55 € / 0,65 € / 0,75 €"
+        },
+        "7": {
+          "title_fi": "Juusto / Kana / Kasvis / Halloumi burgeri ja ranskalaiset ",
+          "title_en": "Cheese / Chicken / Vege / Halloum burger and french fries",
+          "category": "Grilli 1",
+          "properties": "VL",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        },
+        "8": {
+          "title_fi": "Makkaraperunat",
+          "title_en": "Sausage and chips",
+          "category": "Grilli 3",
+          "properties": "G, M",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        },
+        "9": {
+          "title_fi": "Kasvismakkaraperunat",
+          "title_en": "Vegetarian sausage and chips",
+          "category": "Grilli 4",
+          "properties": "M",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        }
+      }
+    },
+    {
+      "date": "Torstai",
+      "courses": {
+        "1": {
+          "title_fi": "Yrtti-valkosipulitäytetty broilerpihvi, currymajoneesia ja paahdettua perunaa",
+          "title_en": "Chiken kiev, curry mayonnaise and roasted potatoes",
+          "category": "Kotiruoka",
+          "properties": "M",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "2": {
+          "title_fi": "Kahden kalan keittoa ja riisipiirakka",
+          "title_en": "Fish soup and rice pastry",
+          "category": "Keitto",
+          "properties": "L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "3": {
+          "title_fi": "vegaani Vegaanipyöryköitä tomaattikastikkeessa ja täysjyväriisiä",
+          "title_en": "vegan Soy balls in tomato sauce and whole grain rice",
+          "category": "Vegaani",
+          "properties": "G, M",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "4": {
+          "title_fi": "Paprika-tuorejuustokeittoa,lisäkesalaatti kahdella napaksella",
+          "title_en": "Bell pepper and cream cheese puree soup, side salad with two napas",
+          "category": "Kasviskeitto",
+          "properties": "G, L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "5": {
+          "title_fi": "Lounaspatonki kinkku-juustotäytteellä",
+          "title_en": "Lunch baguette with ham and cheese filling",
+          "category": "Leipälounas",
+          "properties": "L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "6": {
+          "title_fi": "Mangomoussea",
+          "title_en": "Mangomousse",
+          "category": "Jälkiruoka",
+          "properties": "G",
+          "price": "0,55 € / 0,65 € / 0,75 €"
+        },
+        "7": {
+          "title_fi": "Juusto / Kana / Kasvis / Halloumi burgeri ja ranskalaiset",
+          "title_en": "Cheese / Chicken / Vege / Halloum burger and french fries",
+          "category": "Grilli 1",
+          "properties": "VL",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        },
+        "8": {
+          "title_fi": "Grillattua kirjolohta, herkkusienikastiketta, perunaa ja kasviksia",
+          "title_en": "Grilled salmon, mushroom sauce, potatoes and vegetables",
+          "category": "Grilli 3",
+          "properties": "L",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        },
+        "9": {
+          "title_fi": "Grillattua halloumia, herkkusienikastiketta, perunaa ja kasviksia ",
+          "title_en": "Grilled halloum and muhroom sauce, potatoes and vegetables",
+          "category": "Grilli 4",
+          "properties": "",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        }
+      }
+    },
+    {
+      "date": "Perjantai",
+      "courses": {
+        "1": {
+          "title_fi": "Sitruunabroileria ja täysjyväriisiä",
+          "title_en": "Chiken in lemon sauce and whole grain rice",
+          "category": "Kotiruoka",
+          "properties": "G, L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "2": {
+          "title_fi": "Pasta Arrabiata täysjyväpastasta",
+          "title_en": "Pasta arriabiata and whole grain pasta",
+          "category": "Kotiruoka 2",
+          "properties": "VL",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "3": {
+          "title_fi": "Parsakaali-pinaattipihvit, kermaviilikastiketta ja perunaa",
+          "title_en": "Broccoli and spinach patties, sour cream sauce and potatoes",
+          "category": "Kasvisruoka",
+          "properties": "G, L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "4": {
+          "title_fi": "Juustoista kasviskeittoa,lisäkesalaatti kahdella napaksella",
+          "title_en": "Vegetable puree soup with cheese, side salad with two napas",
+          "category": "Kasviskeitto",
+          "properties": "L",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "5": {
+          "title_fi": "Lounaspatonki tonnikalatäytteellä",
+          "title_en": "Lunch baguette with tuna filling",
+          "category": "Leipälounas",
+          "properties": "M",
+          "price": "2,60 € / 5,10 € / 6,75 €"
+        },
+        "6": {
+          "title_fi": "Turkkilaista jogurttia, hunajaa ja mysliä",
+          "title_en": "Turkish youghurt, honey and granules",
+          "category": "Jälkiruoka",
+          "properties": "",
+          "price": "0,55 € / 0,65 € / 0,75 €"
+        },
+        "7": {
+          "title_fi": "Pizza Americano",
+          "title_en": "Pizza Americano",
+          "category": "Grilli 3",
+          "properties": "L",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        },
+        "8": {
+          "title_fi": "Pizza Tomozzarella",
+          "title_en": "Pizza Tomato and mozzarella",
+          "category": "Grilli 4",
+          "properties": "VL",
+          "price": "4,05 € / 6,10 € / 7,85 €"
+        }
+      }
+    }
+  ]
+}
