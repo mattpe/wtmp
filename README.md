@@ -10,6 +10,7 @@ Javascript programming material and exercises.
 4. Week 3 - TBA
 5. Week 4 - TBA
 6. Week 5 - TBA
+7. Weeks 6-8 - Project work
 
 ## Material
 

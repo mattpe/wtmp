@@ -505,6 +505,8 @@ part. Use debugger and breakpoints.
 
 ## Exercises - Week 1
 
+Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a starting point for all tasks.
+
 ### Task 1 - Setup Enviroment
 
 1. Setup your [toolchain](01-tools.md)
@@ -516,12 +518,19 @@ part. Use debugger and breakpoints.
 1. Run (`npm start`) and open in the browser
 1. Create a new branch called _week1-task1_  (`git branch ...` / `git checkout -b ...`), push it to Github and return a direct link to Oma.
 
-### Task 2 - Adapt your lunch menu layout
+### Task 2 - Number Guessing Game
 
 1. Create a new branch called _week1-task2_ and checkout it (`git checkout -b week1-task2`)
-1. Adapt the html/css layout you created on Monday's classes
+1. Do the [number guessing game tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)
+1. modify it so that the lowest and the highest numbers (limits) are defined as constants (and can be changed by modifying the values in code).
+1. Bonus: add a timer that calculates the time spent guessing in seconds.
+1. Push task branch to Github and return direct link to Oma.
+
+### Task 3 - Dummy lunch menu
+
+1. Create a new branch called _week1-task3_ and checkout it (`git checkout -b week1-task3`)
+1. Use the html/css layout you created on Monday's classes
 1. Write the contents of one of the following arrays into correct text box
-    - use e.g. `querySelector`;
 
     ```js
     const coursesEn = ["Hamburger, cream sauce and poiled potates",
@@ -538,14 +547,17 @@ part. Use debugger and breakpoints.
                     "Juusto / Kana / Kasvis / Halloumi burgeri ja ranskalaiset"];
     ```
 
-### Task 3 -
-
-array & looping
+1. Add a button for changing the language of the menu
+1. Add a button to sort courses alphapetically and write function for sorting:
+    - Takes two arguments: menu array and order (asc/desc)
+    - Returns a sorted array
+1. Add a button that pics a random dish from the array and displays it
+1. Push task branch to Github and return direct link to Oma.
 
 ### Task 4 -
 
-array & something?
+tba
 
 ### Task 5 -
 
-function & array?
+tba
