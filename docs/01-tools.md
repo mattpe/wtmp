@@ -50,8 +50,11 @@ Handy keyboard shortcuts (finnish layout, check _File -> Preferences -> Keyboard
 - Copy line(s): _alt-shift-up/down_
 - Auto format code: _alt-shift-f_
 - Open integrated console: _ctrl-ö_
+- [Command palette](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_command-palette): _ctrl-shift-p_
 - Quick find/open files: _ctrl-p_
 - Split editor: _ctrl-§_
+
+[Visual Studio Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 
 #### VSCode - Settings
 
@@ -130,3 +133,5 @@ Other similar tools:
 
 - [Grunt](https://gruntjs.com/) task runner
 - [Gulp](https://gulpjs.com/) automation tool
+
+---
