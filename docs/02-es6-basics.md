@@ -388,7 +388,7 @@ const powerIterative = function(base, exponent) {
 [Arrow function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions):
 
 ```js
-const powerIterative => (base, exponent) {
+const powerIterative = (base, exponent) => {
   result = 1;
   for(expo = 1; expo <= exponent; expo++) {
     result *= base;
