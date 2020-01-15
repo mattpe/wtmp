@@ -76,7 +76,7 @@ TypeError: Assignment to constant variable.
 
 ## Arithmetic, string and boolean operations
 
-- Arithmetic: `+`, `-` (both unary and binary), `*`, `/`, `%`, `++`, `--`, `+=`, `-=`, `*=`, `/=`, `%=`
+- Arithmetic: `+`, `-` (both [unary](https://scotch.io/tutorials/javascript-unary-operators-simple-and-useful) and binary), `*`, `/`, `%`, `++`, `--`, `+=`, `-=`, `*=`, `/=`, `%=`
 - Boolean: `&&`, `||`, `!`, `==`, `!=`, `===`, `!==`, (`>`, `<`, `>=`, `<=`)
 - String: `+`, etc
 - Array: `.push()`, `.pop()`, etc.
@@ -467,6 +467,47 @@ for (const grade of myGrades) {
 
 ---
 
+## [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+[Eloquent JavaScript, Chapter 4](https://eloquentjavascript.net/04_data.html)
+
+In Javascript object allows for grouping together several related values (properties). The values can be objects, or they can be any primitive values.
+
+Javascript allows for object definitions “on-the-fly”, ie. it is not mandatory to declare a class (like in Java or C#) to keep together several related values. Object attributes can also be added and removed dynamically.
+
+It probably makes sense to use Javascript class mechanism when objects are used in the application extensively. We will take a look at classes later on.
+
+```js
+let student = {
+  name: 'Jill',
+  credits: 90,
+  active: true
+};
+{ name: 'Jill', credits: 90, active: true }
+
+student.credits++;
+student.active = false;
+{ name: 'Jill', credits: 91, active: false }
+
+student.address = {
+  street: 'Learning Road',
+  zip: 1010101
+};
+{
+  name: 'Jill',
+  credits: 91,
+  active: false,
+  address: {
+    street: 'Learning Road',
+    zip: 1010101
+  }
+}
+console.log(student.address.zip);
+1010101
+```
+
+---
+
 ## Generic instructions for all programming tasks
 
 You can use the same GitHub repo for returning all programming tasks, just remember to create a specific branch for every task.
@@ -515,15 +556,22 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
     - Create a new repository at GitHub
     - Change project's remote origin: `git remote set-url origin <NEW-REPO-URL>`
 1. Adapt the layout that you created in HTML/CSS classes
+    - All code files are in `src/` folder
+    - By default, only files in `src/assets` are copied directly to build. Place static asset files there.
 1. Run (`npm start`) and open in the browser
-1. Create a new branch called _week1-task1_  (`git branch ...` / `git checkout -b ...`), push it to Github and return a direct link to Oma.
+1. Create a new branch called _week1-task1_  (`git branch week1-task1` / `git checkout -b week1-task1`), push it to Github (`git push origin <BRANCH_NAME>`) and return a direct link to Oma.
 
 ### Task 2 - Number Guessing Game
 
 1. Create a new branch called _week1-task2_ and checkout it (`git checkout -b week1-task2`)
 1. Do the [number guessing game tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)
+    - Use wtmp-starter project, **DO NOT** use `<script>` tags inside html files.
+    - Use arrow functions
 1. modify it so that the lowest and the highest numbers (limits) are defined as constants (and can be changed by modifying the values in code).
-1. Bonus: add a timer that calculates the time spent guessing in seconds.
+1. add a timer that calculates the total time spent guessing in seconds.
+   - TIP: `Date.now()` returns the current timestamp in milliseconds
+1. Show total number of guesses and the time spent when correct number is found
+1. Add some css styles.
 1. Push task branch to Github and return direct link to Oma.
 
 ### Task 3 - Dummy lunch menu
@@ -554,10 +602,21 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 1. Add a button that pics a random dish from the array and displays it
 1. Push task branch to Github and return direct link to Oma.
 
-### Task 4 -
+### Task 4 - Dummy lunch menu 2
 
-tba
+1. Continue previous task 3
+1. Create a new branch called _week1-task3_ and checkout it (`git checkout -b week1-task3`)
+1. Replace harcoded menu arrays with a static json file
+    - copy [this json file](https://github.com/mattpe/wtmp/blob/master/assets/sodexo-day-example.json) into your project folder
+    - use import syntax for loading the json data:
 
-### Task 5 -
+    ```js
+    import LunchMenu from '<relative-path-to-json-file>';
+    // Test
+    console.log('lunch menu object', LunchMenu);
+    ```
 
-tba
+1. Implement the all the features/requirements listed in previous task
+1. Push task branch to Github and return direct link to Oma.
+
+---
