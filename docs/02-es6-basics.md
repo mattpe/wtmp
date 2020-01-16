@@ -610,10 +610,10 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
     ```
 
 1. Add a button for changing the language of the menu
-1. Add a button to sort courses alphapetically and write function for sorting:
+1. Add a button to sort courses alphapetically and write a function for sorting:
     - Takes two arguments: menu array and order (asc/desc)
     - Returns a sorted array
-1. Add a button that pics a random dish from the array and displays it
+1. Add a button that picks a random dish from the array and displays it
 1. Push task branch to Github and return direct link to Oma.
 
 ### Task 4 - Dummy lunch menu 2
