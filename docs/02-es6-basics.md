@@ -540,9 +540,18 @@ Some tips:
 - Start small. Take small steps. Write something you can verify (a function, for example), and only after it works, build based on it.
 - Trying to construct the application from multiple pieces whose correct functioning is unproven is a very risky strategy. Try out the functions you write using different inputs (even illegal) and check that they behave as expected.
 - Separate UI from the application logic as much as possible. Avoid writing the whole application logic in event handlers.
-- Use debugger. Or use even alerts.
+- Use debugger. Or use alert events.
 - If the application refuses to work, step back and try to isolate the problematic
 part. Use debugger and breakpoints.
+
+Some useful git commands:
+
+- list local branches: `git branch`
+- list all (local & remotes) branches: `git branch --all`
+- choose a branch: `git checkout <BRANCH-NAME>`
+- push local branch to remote 'origin': `git push origin <BRANCH-NAME>`
+- push all local branches to remote 'origin': `git push origin --all`
+- view commit history of a branch: `git log`
 
 ## Exercises - Week 1
 
@@ -616,7 +625,11 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
     console.log('lunch menu object', LunchMenu);
     ```
 
-1. Implement the all the features/requirements listed in previous task
+1. Implement all the features/requirements listed in the previous task
 1. Push task branch to Github and return direct link to Oma.
+1. Deploy your lunch menu website to your home folder (_users.metropolia.fi_) and return link to Oma.
+    - create a "production" build: `npm run build` (you must stop the dev server first: _ctrl-c_)
+    - copy contents of `dist/` folder to your `public_html` folder on _shell.metropolia.fi_
+    - TIP: bash command for scp file copy: `scp -r dist/* <USERNAME>@shell.metropolia.fi:public_html/<FOLDER-NAME>/`
 
 ---
