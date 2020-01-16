@@ -546,12 +546,17 @@ part. Use debugger and breakpoints.
 
 Some useful git commands:
 
+- see the status of your repo: `git status`
+- choose changed files to be committed: `git add <FILES>`, `git add .` chooses all changes in current folder
+- commit (save) the changes chosen with `add`: `git commit -m "<DESCRIBE CHANGES HERE>"`
 - list local branches: `git branch`
 - list all (local & remotes) branches: `git branch --all`
 - choose a branch: `git checkout <BRANCH-NAME>`
 - push local branch to remote 'origin': `git push origin <BRANCH-NAME>`
 - push all local branches to remote 'origin': `git push origin --all`
 - view commit history of a branch: `git log`
+
+Make sure that you are in the correct branch when committing changes!
 
 ## Exercises - Week 1
 
