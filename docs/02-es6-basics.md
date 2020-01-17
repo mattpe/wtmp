@@ -8,8 +8,11 @@
 - Scopes
 - Control structures
 - Functions
-- Array
+- Data structures (array & object)
+- Exercise instructions
 - Exercises for Week 1
+
+---
 
 ## About ES6
 
