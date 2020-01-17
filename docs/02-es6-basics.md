@@ -549,12 +549,17 @@ part. Use debugger and breakpoints.
 
 Some useful git commands:
 
+- see the status of your repo: `git status`
+- choose changed files to be committed: `git add <FILES>`, `git add .` chooses all changes in current folder
+- commit (save) the changes chosen with `add`: `git commit -m "<DESCRIBE CHANGES HERE>"`
 - list local branches: `git branch`
 - list all (local & remotes) branches: `git branch --all`
 - choose a branch: `git checkout <BRANCH-NAME>`
 - push local branch to remote 'origin': `git push origin <BRANCH-NAME>`
 - push all local branches to remote 'origin': `git push origin --all`
 - view commit history of a branch: `git log`
+
+Make sure that you are in the correct branch when committing changes!
 
 ## Exercises - Week 1
 
@@ -608,10 +613,10 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
     ```
 
 1. Add a button for changing the language of the menu
-1. Add a button to sort courses alphapetically and write function for sorting:
+1. Add a button to sort courses alphapetically and write a function for sorting:
     - Takes two arguments: menu array and order (asc/desc)
     - Returns a sorted array
-1. Add a button that pics a random dish from the array and displays it
+1. Add a button that picks a random dish from the array and displays it
 1. Push task branch to Github and return direct link to Oma.
 
 ### Task 4 - Dummy lunch menu 2
