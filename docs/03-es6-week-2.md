@@ -289,7 +289,7 @@ Folder structure:
 
 ```dir
 src/
-  | app.js
+  | index.js
   | modules/
     | my-module.js
 ```
@@ -299,7 +299,7 @@ Using export for multiple variables:
 _index.js:_
 
 ```js
-import {myVariable, myFunction, myObject} from './modules/my-module.js';
+import {myVariable, myFunction, myObject} from './modules/my-module';
 
 console.log(myVariable);
 // Output: Hello!
@@ -328,7 +328,7 @@ Using default export:
 _index.js:_
 
 ```js
-import Tools from './modules/my-module.js';
+import Tools from './modules/my-module';
 
 console.log(Tools.myVariable);
 // Output: Hello!
