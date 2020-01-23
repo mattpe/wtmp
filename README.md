@@ -1,14 +1,14 @@
 # Web Technologies and Media Platforms
 
-Javascript programming material and exercises.
+JavaScript programming material and exercises.
 
 ## Schedule
 
-1. [Week 1 - Toolchain](docs/01-tools.md)
-2. [Week 1 - ES6 Basics](docs/02-es6-basics.md)
-3. [Week 2 - Algorithms, data manipulation, modules](docs/03-es6-week-2.md)
-4. Week 3 - Events, design patterns
-5. Week 4 - More events, networking
+1. [Week 1 - Toolchain](docs/00-tools.md)
+2. [Week 1 - JavaScript Basics](docs/01-javascript-basics.md)
+3. [Week 2 - Algorithms, data manipulation, modules](docs/02-javascript-week-2.md)
+4. Week 3 - Design patterns, events
+5. Week 4 - Networking, more events, error handling
 6. Week 5 - Classes
 7. Weeks 6-8 - Project work
 
