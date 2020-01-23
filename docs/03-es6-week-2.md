@@ -402,7 +402,7 @@ Implement functions, use the following data array when needed.
     - use regexp (`.test()`), rules for the string:
       - starts with a capital letter
       - min length 4, max 64
-      - can contain letters, numbers, whitespaces, hyphens, slashes, commas
+      - can contain letters, numbers, whitespaces, hyphens, slashes, commas & parentheses
 1. Sort the menu based on price
 1. Display only items costing less than 5 € (filtering)
 1. Raise all prices 15 % (use map)
