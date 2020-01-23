@@ -413,7 +413,7 @@ Execute all the statements and call all the functions (with test parameters) and
 #### B - More advanced
 
 1. Get [Fazer lunch menu json file](https://github.com/mattpe/wtmp/blob/master/assets/fazer-week-example.json)
-1. Implement function that displays only vegan dishes.
+1. Implement function that displays only vegan dishes. (Only for one weekday is ok.)
 
 **Push task branch to Github and return direct link to Oma.**
 
