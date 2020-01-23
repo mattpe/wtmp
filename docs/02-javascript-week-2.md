@@ -1,4 +1,4 @@
-# ES6 - Week 2
+# JavaScript - Week 2
 
 ## Contents
 
@@ -357,7 +357,7 @@ export default Tools;
 
 ## Exercises - Week 2
 
-Recap the [generic instructions](./02-es6-basics.md#generic-instructions-for-all-programming-tasks) from last week.
+Recap the [generic instructions](./01-javascript-basics.md#generic-instructions-for-all-programming-tasks) from last week.
 
 Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a starting point for all tasks.
 
@@ -365,7 +365,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 
 Add computer player functionality to the number guessing game.
 
-1. Continue [task 2](02-es6-basics.md#task-2---number-guessing-game) from previous week
+1. Continue [task 2](01-javascript-basics.md#task-2---number-guessing-game) from previous week
 1. Create a new branch called _week2-task1_ and checkout it (`git checkout -b week2-task1`)
 1. Describe the best strategy in playing the number guessing game and design an algorithm for it
 1. Implement your algorithm:
@@ -413,13 +413,13 @@ Execute all the statements and call all the functions (with test parameters) and
 #### B - More advanced
 
 1. Get [Fazer lunch menu json file](https://github.com/mattpe/wtmp/blob/master/assets/fazer-week-example.json)
-1. Implement a function that displays vegan dishes only. (For one day is ok.)
+1. Implement a function that displays vegan dishes only. (Choosing just one day is ok.)
 
 **Push task branch to Github and return direct link to Oma.**
 
 ### Task 3 - Dummy lunch menu 3 - with modules
 
-1. Continue [task 4](02-es6-basics.md#task-4---dummy-lunch-menu-2) from previous week
+1. Continue [task 4](./01-javascript-basics.md#task-4---dummy-lunch-menu-2) from previous week
 1. Create a new branch called _week2-task3_ and checkout it
 1. Split JS code to reasonable ES6 modules (use `import`/`export`)
     - Create a subfolder called `modules/` and place all your module files there

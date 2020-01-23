@@ -1,8 +1,8 @@
 # Development Toolchain
 
-- Language: Javascript (ES6)
+- Language: Javascript (ES6+)
 - Editor/IDE (Visual Studio Code)
-- ES6 linter
+- JavaScript (ES) linter
 - Web Browser: Chrome + developer tools
 - Package Manager: npm
 - Version control: git (+ github)

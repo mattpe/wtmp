@@ -1,4 +1,4 @@
-# ES6 Basic Concepts & Getting Started
+# JavaScript Basic Concepts & Getting Started
 
 ## Contents
 
@@ -14,18 +14,24 @@
 
 ---
 
-## About ES6
+## About JS and ES
 
-- short for ECMAScript 6, also known as ES2015
-- some selected features
+- _ECMAScript_ is a specification standardized by _European Computer Manufacturers Association (ECMA)_ for _JavaScript_ language
+- ES6 is short for ECMAScript 6, also known as ES2015
+- ES8 is short for ECMAScript 8, also known as ES2017 and so on..
+- ES6+ versions are often considered "modern JavaScript"
+- some selected new features in "modern" ES versions:
   - `const`
   - `let`
   - arrow functions
   - JavaScript classes
-  - default parameter values
+  - function default parameter values
   - `Array.find()`
   - `Array.findIndex()`
+  - `Object.values()`
   - for-of loop
+  - promises
+  - await-async
 
 ---
 
@@ -567,7 +573,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 
 ### Task 1 - Setup Enviroment
 
-1. Setup your [toolchain](01-tools.md)
+1. Setup your [toolchain](./00-tools.md)
 1. Get the boilerplate project `git clone https://github.com/mattpe/wtmp-starter.git`
 1. Setup a remote repository of your own
     - Create a new repository at GitHub
@@ -584,7 +590,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 1. Do the [number guessing game tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)
     - Use wtmp-starter project, **DO NOT** use `<script>` tags inside html files.
     - Use arrow functions
-1. modify it so that the lowest and the highest numbers (limits) are defined as constants (and can be changed by modifying the values in code).
+1. modify it so that the lowest and the highest numbers (limits) and maximum guess count are defined as constants (and can be changed by modifying the values in code).
 1. add a timer that calculates the total time spent guessing in seconds.
    - TIP: `Date.now()` returns the current timestamp in milliseconds
 1. Show total number of guesses and the time spent when correct number is found
