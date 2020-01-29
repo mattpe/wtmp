@@ -245,7 +245,7 @@ const isBefore = (el1, el2) => {
 
 ## Exercises - Week 3
 
-Recap the [generic instructions](./02-es6-basics.md#generic-instructions-for-all-programming-tasks) from last week.
+Recap the [generic instructions](./01-javascript-basics.md#generic-instructions-for-all-programming-tasks) from last week.
 
 Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a starting point for all tasks.
 
