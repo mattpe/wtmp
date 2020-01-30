@@ -96,7 +96,7 @@ targetElement.addEventListener('click', (event) => {
 document.querySelector('#theDiv').addEventListener('click', (event) => {
   console.log('event object', event);
 
-// KeyboarEvent
+// KeyboardEvent
 document.addEventListener('keydown', event => {
   console.log('keydown:', event.key, event.keyCode);
   if (event.keyCode === 13) {
