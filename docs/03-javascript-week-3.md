@@ -68,7 +68,7 @@ console.log('Hello week 3!');
 [MDN Event reference](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 - Event interface represents an event which takes place in the [DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM)
-- [`EventTarget.addEventListener()`] method is used to bind certain type of an event to a function that will be called whenever the specified event is delivered to the target
+- [`EventTarget.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) method is used to bind certain type of an event to a function that will be called whenever the specified event is delivered to the target
 - Common event targets are DOM _elements_, _document_ object, and browser _window_, but the target may be any object that supports events
 
 ```html
