@@ -407,6 +407,7 @@ Implement functions, use the following data array when needed.
 1. Display only items costing less than 5 € (filtering)
 1. Raise all prices 15 % (use map)
 1. How much does it cost to eat the whole menu (use reduce)
+    - tip: <https://stackoverflow.com/questions/5732043/javascript-reduce-on-array-of-objects>
 
 Execute all the statements and call all the functions (with test parameters) and print output to console (or document).
 
