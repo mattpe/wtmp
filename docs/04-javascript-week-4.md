@@ -124,6 +124,8 @@ Example source url: http://www.example.com/dir/page.html
   - think about data security
 - [JSONP](https://www.w3schools.com/js/js_json_jsonp.asp)
 
+- Example of unwanted SOP Bypass: [Security Boulevard: Bypassing SOP Using the Browser Cache](https://securityboulevard.com/2019/04/bypassing-sop-using-the-browser-cache/)
+
 ---
 
 ## Error/exception handling
