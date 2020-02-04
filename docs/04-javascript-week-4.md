@@ -32,6 +32,8 @@ fetch(`https://api.github.com/users/mattpe`);
 
 [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 
+- `Promise` objects are used to handle asynchronous operations in JavaScript.
+- e.g. calling `fetch()` returns a Promise that represents the eventual completion or failure of the asynchronous operation
 - The state of promise is one of the following:
   - _pending_: initial state, neither fulfilled nor rejected
   - _fulfilled_: meaning that the operation completed successfully
