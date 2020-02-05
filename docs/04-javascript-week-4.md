@@ -170,6 +170,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 
 ### Task 1 - Lunch menu with real data
 
+1. Develop your lunch menu page further
 1. Create a new branch called _week4-task1_ and checkout it
 1. Add a new module for network features
     - provides network functions to other modules/index.js
@@ -188,6 +189,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 
 ### Task 2 - Lunch menu search bar
 
+1. Develop your lunch menu page further
 1. Create a new branch called _week4-task2_ and checkout it
 1. Design and implement functionality for lunch menu page's search field.
 1. Some ideas:
