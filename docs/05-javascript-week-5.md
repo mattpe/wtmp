@@ -73,7 +73,7 @@ const fifiDog = new Dog('Fifi', 12, 'beagle');
 
 [MDN web docs: Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 
-[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+[MDN web docs: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 - Javascript is a prototype-based language (cf. Object-oriented programming (OOP) languages: Java, C#, etc.)
 - Prototypes are the mechanism by which JavaScript objects inherit features from one another.
