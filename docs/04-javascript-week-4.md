@@ -184,7 +184,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
         - <https://www.fazerfoodco.fi/api/restaurant/menu/week?language=fi&restaurantPageId=270540&weekDate=2020-01-14>
         - simple: subscribe -> json: <https://www.fazerfoodco.fi/modules/json/json/Index?costNumber=3208&language=en>
     - use e.g. [cors-anywhere](https://cors-anywhere.herokuapp.com/) proxy server
-1. Publish a demo at users.metropolia.fi~/_MY-ACCOUNT_/wtmp-week4-task-1
+1. Publish a demo at users.metropolia.fi/~_MY-ACCOUNT_/wtmp-week4-task-1
 1. Push task branch to Github and return direct link to Oma.
 
 ### Task 2 - Lunch menu search bar
@@ -198,5 +198,5 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
     - fetch menu content for livesearch
     - use UI events from the `<input>` field
 1. Write a short description about features you implemented
-1. Publish a demo at users.metropolia.fi~/_MY-ACCOUNT_/wtmp-week4-task-2
+1. Publish a demo at users.metropolia.fi/~_MY-ACCOUNT_/wtmp-week4-task-2
 1. Push task branch to Github and return direct link to Oma.
