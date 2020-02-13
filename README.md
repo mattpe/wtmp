@@ -10,7 +10,7 @@ JavaScript programming material and exercises.
 4. [Week 3 - Design patterns, async code, events](docs/03-javascript-week-3.md)
 5. [Week 4 - Networking, more events, error handling](docs/04-javascript-week-4.md)
 6. [Week 5 - Objects, Web Storage API](docs/05-javascript-week-5.md)
-7. Weeks 6-8 - Project work
+7. Weeks 6-8: [Project work](https://docs.google.com/document/d/1UxaQnoeHTzGOrm6pwFa9Jb1wdAaUFTMfsp54FTsU8vU)
 
 ## Material
 
