@@ -69,6 +69,10 @@ const harryDog = new Dog('Harry', 7, 'bulldog');
 const fifiDog = new Dog('Fifi', 12, 'beagle');
 ```
 
+**NOTE:** In JavaScript functions, [`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) keyword behaves a little differently compared to other languages. It also has some differences between [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) and non-strict mode.
+
+Imported ES6 modules are always executed in strict mode.
+
 ### Prototypes
 
 [MDN web docs: Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
