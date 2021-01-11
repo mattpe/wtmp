@@ -20,7 +20,7 @@ Ultimately, it's your choice. VSCode is recommended.
 - wide extension support
 - lightweight, multiplatform support
 - good [docs & instructions](https://code.visualstudio.com/docs/editor/codebasics)
-- choice of many React developers
+- choice of many JS developers, supports multiple JS frameworks/libraries
 
 #### Install Extensions
 
