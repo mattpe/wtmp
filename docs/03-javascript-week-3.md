@@ -439,3 +439,4 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 1. Add `icon.png` file into `assets/` folder. Any png with size 512x512 pixels will do
 1. Use your responsive/mobile html/css layout
 1. build, upload to the web server and test home screen installation with a mobile device
+    - use _https_ protocol and a PWA capable browser (e.g.Chrome)
