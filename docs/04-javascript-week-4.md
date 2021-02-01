@@ -173,7 +173,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 1. Develop your lunch menu page further
 1. Create a new branch called _week4-task1_ and checkout it
 1. Add a new module for network features
-    - provides network functions to other modules/index.js
+    - provides generic reusable network functions to other modules and main app (_index.js_)
     - use Fetch API
     - use try-catch for error handling
 1. Fetch lunch menu data from web sources, example urls:
@@ -182,7 +182,8 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
         - <https://www.sodexo.fi/ruokalistat/output/weekly_json/152>
     - [Fazer Karaportti](https://www.fazerfoodco.fi/ravintolat/Ravintolat-kaupungeittain/espoo/metropolia/)
         - <https://www.fazerfoodco.fi/api/restaurant/menu/week?language=fi&restaurantPageId=270540&weekDate=2020-01-14>
-        - simple: subscribe -> json: <https://www.fazerfoodco.fi/modules/json/json/Index?costNumber=3208&language=en>
+        - simple version: subscribe -> json: <https://www.fazerfoodco.fi/modules/json/json/Index?costNumber=3208&language=en>
+        - NOTE P3/2021: Karaportti restaurant is closed. Use other restaurant or test with old menus
     - use e.g. [cors-anywhere](https://cors-anywhere.herokuapp.com/) proxy server
 1. Publish a demo at users.metropolia.fi/~_MY-ACCOUNT_/wtmp-week4-task-1
 1. Push task branch to Github and return direct link to Oma.
@@ -194,7 +195,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 1. Design and implement functionality for lunch menu page's search field.
 1. Some ideas:
     - search from already downloaded content
-    - provide autofill using keywords
+    - provide autofill/autocomplete feature using keywords
     - fetch menu content for livesearch
     - use UI events from the `<input>` field
 1. Write a short description about features you implemented
