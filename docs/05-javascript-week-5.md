@@ -69,9 +69,31 @@ const harryDog = new Dog('Harry', 7, 'bulldog');
 const fifiDog = new Dog('Fifi', 12, 'beagle');
 ```
 
-**NOTE:** In JavaScript functions, [`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) keyword behaves a little differently compared to other languages. It also has some differences between [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) and non-strict mode.
+**NOTE:** (Especially if you are familar with some object oriented programming languages like Java or C#) In JavaScript functions, [`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) keyword behaves a little differently compared to other languages. It also has some differences between [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) and non-strict mode.
 
 Imported ES6 modules are always executed in strict mode.
+
+### Some built-in objects
+
+We have been using many objects already.
+
+- all [_strings_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) and [_arrays_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) are objects too (they have properties and methods)
+
+    ```js
+    const myArray = ['1', 2, false];
+    myArray.length; // -> 3
+    myArray.push('fourth item'); // -> (4) ["1", 2, false, "fourth item"]
+    'hello world'.length // -> 11
+    'hello world'.split(' '); // -> (2) ["hello", "world"]
+    ```
+
+- [`console`](https://developer.mozilla.org/en-US/docs/Web/API/Console) - object provides access to the browser's debugging console
+- `document` - provides access to the DOM (check lesson 3)
+- `event` - object provides information about an event occured in DOM (check lesson 3)
+- [`Math`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) - has properties and methods for mathematical constants and functions
+- [`Date`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) - represent a single moment in time in a platform-independent format
+  - `Date.now()` - returns a "timestamp", a Number that represents milliseconds since 1 January 1970 UTC ([UNIX Epoch time](https://en.wikipedia.org/wiki/Unix_time))
+- [`location`](https://developer.mozilla.org/en-US/docs/Web/API/Location) - represents the location (URL) of the object it is linked to
 
 ### Prototypes
 
