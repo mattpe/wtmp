@@ -25,9 +25,9 @@
     ```
 
 1. Create folder `src/styles` and move your css files there
-1. Rename files _*.css -> *.scss_
-1. Fix image paths in _.scss_ files
-1. Add media queries to _scss_ files, example for widescreen file:
+1. Rename the files by changing the file extensions: _*.css -> *.scss_
+1. Fix image file paths inside _.scss_ files
+1. Add media queries to _scss_ files, example for a widescreen specific file:
 
     ```scss
     @media screen and (min-width: 1100px) {
@@ -38,13 +38,13 @@
     }
     ```
 
-1. Import styles in _index.js_, e.g: `import './styles/style.scss';`
+1. Import sass styles to your app in _index.js_, e.g: `import './styles/style.scss';`
 1. Remove `<link rel="stylesheet"..... />` elements from _index.html_
-1. `npm start`
+1. Try it out: `npm start`
 
 [webpack documentation for sass-loader](https://webpack.js.org/loaders/sass-loader/)
 
-## Fethcing HSL DATA
+## Fetching HSL DATA
 
 [Digitransit Routing API](https://digitransit.fi/en/developers/apis/1-routing-api/)
 
