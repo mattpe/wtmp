@@ -160,17 +160,21 @@ const response = await fetch(apiUrl, {
      ```json
        "scripts": {
           ...
-          "doc": "jsdoc",
+          "docs": "jsdoc <command-line-arguments>",
           ...
         },
      ```
 
-1. Create a settings file (optional)
-1. `npm run doc [LIST_JS_FILE_PATHS_HERE]`
+1. Use [command-line arguments](https://jsdoc.app/about-commandline.html) or create [a conf file](https://jsdoc.app/about-configuring-jsdoc.html) for configuration
+1. `npm run docs`
 
 ## Routing/navigation
 
-Simple SPA model will do.
+Simple SPA model will do:
+
+- All static html in _index.html_
+- Use e.g. `<section>` elements to separate content pages/views
+- Hide/display views by using JavaScript for navigation
 
 ## Some open data & API ideas
 
