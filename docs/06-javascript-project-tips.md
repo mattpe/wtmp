@@ -44,7 +44,7 @@
 
 [webpack documentation for sass-loader](https://webpack.js.org/loaders/sass-loader/)
 
-## Fetching HSL DATA
+## Fetching HSL data
 
 [Digitransit Routing API](https://digitransit.fi/en/developers/apis/1-routing-api/)
 
@@ -167,6 +167,8 @@ const response = await fetch(apiUrl, {
 
 1. Use [command-line arguments](https://jsdoc.app/about-commandline.html) or create [a conf file](https://jsdoc.app/about-configuring-jsdoc.html) for configuration
 1. `npm run docs`
+
+Or you can add JSDoc to your webpack build chain with [a plugin](https://www.npmjs.com/package/jsdoc-webpack-plugin).
 
 ## Routing/navigation
 
