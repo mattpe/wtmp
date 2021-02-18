@@ -185,3 +185,9 @@ Simple SPA model will do:
 - [HSL open data](https://www.hsl.fi/en/hsl/open-data)
 - [THL open data](https://thl.fi/fi/tilastot-ja-data/aineistot-ja-palvelut/avoin-data)
 - [Avoin data Metropoliassa](https://wiki.metropolia.fi/display/opendata/REST-rajapinnat)
+
+## Other
+
+- In case of having problems with autoreload or loading/seeing code changes in local development enviroment:
+  - Check that service worker is not caching the data -> disable SW registeration temporarily for development in your code
+  - Clear site data & cache (Chrome dev tools: _Application_ tab -> Choose _Storage_ on the side panel -> Press _Clear site data_ button -> refresh the page)
