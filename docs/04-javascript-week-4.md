@@ -119,7 +119,7 @@ Example source url: http://www.example.com/dir/page.html
 
 - If hosting the server or serverside application by yourself, just [enable cors](https://enable-cors.org/)
 - Use a proxy server
-  - setup your own (google for simple php/node http proxy :)
+  - setup your own (google for simple php/node http proxy, [one example](./99-php-http-proxy.md))
   - test with public ones (e.g. <https://cors-anywhere.herokuapp.com/>)
   - think about data security
 - [JSONP](https://www.w3schools.com/js/js_json_jsonp.asp)
@@ -183,8 +183,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
     - [Fazer Karaportti](https://www.fazerfoodco.fi/ravintolat/Ravintolat-kaupungeittain/espoo/metropolia/)
         - <https://www.fazerfoodco.fi/api/restaurant/menu/week?language=fi&restaurantPageId=270540&weekDate=2020-01-14>
         - simple version: subscribe -> json: <https://www.fazerfoodco.fi/modules/json/json/Index?costNumber=3208&language=en>
-        - NOTE P3/2021: Karaportti restaurant is closed. Use other restaurant or test with old menus
-    - use e.g. [cors-anywhere](https://cors-anywhere.herokuapp.com/) proxy server
+    - use e.g. [your own PHP proxy](./99-php-http-proxy.md) (preferred) or [cors-anywhere](https://cors-anywhere.herokuapp.com/) proxy server for testing
 1. Publish a demo at users.metropolia.fi/~_MY-ACCOUNT_/wtmp-week4-task-1
 1. Push task branch to Github and return direct link to Oma.
 
