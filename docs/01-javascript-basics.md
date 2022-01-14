@@ -600,7 +600,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 ### Task 3 - Dummy lunch menu
 
 1. Create a new branch called _week1-task3_ and checkout it (`git checkout -b week1-task3`)
-1. Use the html/css layout you created on Monday's classes
+1. Use the html/css layout you created on Ulla's classes (you can implement just the JS application logic first if you don't have the html-layout ready yet)
 1. Write the contents of one of the following arrays into correct text box
 
     ```js
