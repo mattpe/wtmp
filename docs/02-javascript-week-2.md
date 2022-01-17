@@ -27,6 +27,26 @@
 
 ![Flowchart of Euclidean algorithm](https://upload.wikimedia.org/wikipedia/commons/d/db/Euclid_flowchart.svg) ([Source: Wikimedia](https://en.wikipedia.org/wiki/Algorithm#/media/File:Euclid_flowchart.svg))
 
+[Example implementation](https://www.tutorialspoint.com/euclidean-algorithm-for-calculating-gcd-in-javascript) in JavaScript:
+
+```js
+const num1 = 252;
+const num2 = 105;
+const findGCD = (num1, num2) => {
+   let a = Math.abs(num1);
+   let b = Math.abs(num2);
+   while (a && b && a !== b) {
+      if(a > b){
+         [a, b] = [a - b, b];
+      }else{
+         [a, b] = [a, b - a];
+      };
+   };
+   return a || b;
+};
+console.log(findGCD(num1, num2));
+```
+
 ### Randomness
 
 - How random is random?
