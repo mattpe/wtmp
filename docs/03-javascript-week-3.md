@@ -22,7 +22,7 @@
 - [Module pattern](https://en.wikipedia.org/wiki/Module_pattern): [ES modules](./02-javascript-week-2.md#modules)
 - [Factory pattern](https://en.wikipedia.org/wiki/Factory_method_pattern): covered later (with JS classes)
 - [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern): publish - subscribe, events
-- [Adapter pattern](https://en.wikipedia.org/wiki/Adapter_pattern): makes two incompatible interfaces to work together, task 2
+- [Adapter pattern](https://en.wikipedia.org/wiki/Adapter_pattern): makes two incompatible interfaces to work together, see [task 2](#task-2---lunch-menu---adapter-pattern)
 - many JS frameworks/libraries/apps implement features based on design patterns
 
 Some reading:
