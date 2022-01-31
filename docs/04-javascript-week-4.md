@@ -120,7 +120,7 @@ Example source url: http://www.example.com/dir/page.html
 - If hosting the server or serverside application by yourself, just [enable cors](https://enable-cors.org/)
 - Use a proxy server
   - setup your own (google for simple php/node http proxy, [one example](./99-php-http-proxy.md))
-  - test with public ones (e.g. <https://cors-anywhere.herokuapp.com/>)
+  - test with public ones (e.g. <https://allorigins.win/>)
   - think about data security
 - [JSONP](https://www.w3schools.com/js/js_json_jsonp.asp)
 
