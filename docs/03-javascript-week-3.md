@@ -440,3 +440,5 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 1. Use your responsive/mobile html/css layout
 1. build, upload to the web server and test home screen installation with a mobile device
     - use _https_ protocol and a PWA capable browser (e.g.Chrome)
+
+**Note:** If you want to continue your app developlment without PWA functionality e.g. in other branch, you must clear browser's cache and unregister the service worker. Check also: [Tools for PWA Developers](https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers)
