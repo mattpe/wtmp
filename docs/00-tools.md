@@ -74,11 +74,7 @@ Handy keyboard shortcuts (finnish layout, check _File -> Preferences -> Keyboard
 - quite ready out of the box. No need for plugins.
 - based on IntelliJ IDEA, just like Android Studio
 
-### Other picks
-
-- [Atom](https://atom.io/)
-- [Brackets](http://brackets.io/)
-- Other IDEs like: IntelliJ Ultimate IDEA, Eclipse, NetBeans...
+- Other IDEs like: IntelliJ Ultimate IDEA, Eclipse, NetBeans, etc. will do too
 
 ---
 

@@ -182,7 +182,8 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
         - <https://www.sodexo.fi/ruokalistat/output/weekly_json/152>
     - [Fazer Karaportti](https://www.foodandco.fi/ravintolat/Ravintolat-kaupungeittain/espoo/metropolia/)
         - <https://www.foodandco.fi/api/restaurant/menu/week?language=fi&restaurantPageId=270540&weekDate=2022-02-01>
-        - simple version: subscribe -> json: <https://www.foodandco.fi/modules/json/json/Index?costNumber=3208&language=en>
+        - simple version: subscribe -> json: <https://www.compass-group.fi/menuapi/feed/json?costNumber=3208&language=en>
+        - old 2022: (<https://www.foodandco.fi/modules/json/json/Index?costNumber=3208&language=en>)
     - use e.g. [your own PHP proxy](./99-php-http-proxy.md) (preferred) or open services like [allOrigins](https://allorigins.win/) or [cors-anywhere](https://cors-anywhere.herokuapp.com/) proxy server for testing
 1. Publish a demo at users.metropolia.fi/~_MY-ACCOUNT_/wtmp-week4-task-1
 1. Push task branch to Github and return direct link to Oma.
