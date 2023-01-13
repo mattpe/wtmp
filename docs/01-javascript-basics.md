@@ -374,7 +374,7 @@ Three different ways. We prefer [the fat arrow expression](https://developer.moz
 
 ```js
 function powerIterative(base, exponent) {
-  result = 1;
+  let result = 1;
   for(expo = 1; expo <= exponent; expo++) {
     result *= base;
   }
@@ -386,7 +386,7 @@ function powerIterative(base, exponent) {
 
 ```js
 const powerIterative = function(base, exponent) {
-  result = 1;
+  let result = 1;
   for(expo = 1; expo <= exponent; expo++) {
     result *= base;
   }
@@ -398,7 +398,7 @@ const powerIterative = function(base, exponent) {
 
 ```js
 const powerIterative = (base, exponent) => {
-  result = 1;
+  let result = 1;
   for(expo = 1; expo <= exponent; expo++) {
     result *= base;
   }
@@ -599,7 +599,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 
 ### Task 3 - Dummy lunch menu
 
-1. Create a new branch called _week1-task3_ and checkout it (`git checkout -b week1-task3`)
+1. Create a new branch called _week1-task3_ based on your _main_ branch and checkout it (`git checkout main; git checkout -b week1-task3`)
 1. Use the html/css layout you created on Ulla's classes (you can implement just the JS application logic first if you don't have the html-layout ready yet)
 1. Write the contents of one of the following arrays into correct text box
 
@@ -627,7 +627,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 
 ### Task 4 - Dummy lunch menu 2
 
-1. Continue previous task 3
+1. Continue the previous task (3)
 1. Create a new branch called _week1-task3_ and checkout it (`git checkout -b week1-task3`)
 1. Replace harcoded menu arrays with a static json file
     - copy [this json file](https://github.com/mattpe/wtmp/blob/master/assets/sodexo-day-example.json) into your project folder
