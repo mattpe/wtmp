@@ -428,7 +428,7 @@ A function can be impure in two ways:
 - An array in Javascript is also an object. It is possible to add/remove attributes to/from an array. The indexes in an array are technically property names, however a special syntax (which is familiar from other programming languages) must be used.
 
 ```js
-> let myGrades = [ 3, 3, 4, 1, 5, 5 ];
+> const myGrades = [ 3, 3, 4, 1, 5, 5 ];
 undefined
 > myGrades;
 [ 3, 3, 4, 1, 5, 5 ]
@@ -460,11 +460,11 @@ undefined
 
 ### Iterating using for-of loop
 
-- [for-of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) is a new loop in ES6 that replaces both for-in and forEach() and supports the new iteration protocol. ([one comparison](https://codeburst.io/foreach-vs-for-of-vs-for-in-tug-of-for-d8f935396648))
+- [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) is a new loop in ES6 that replaces both for-in and forEach() and supports the new iteration protocol. ([one comparison](https://codeburst.io/foreach-vs-for-of-vs-for-in-tug-of-for-d8f935396648))
 - Use it to loop over iterable objects (Arrays, strings, Maps, Sets, etc.)
 
 ```js
-let myGrades = [3, 3, 4, 1, 5, 5];
+const myGrades = [3, 3, 4, 1, 5, 5];
 let topGradeCount = 0;
 for (const grade of myGrades) {
   if (grade > 4) {
@@ -513,6 +513,16 @@ student.address = {
 }
 console.log(student.address.zip);
 1010101
+```
+
+### Iterating object properties using for-in loop
+
+All enumerable string properties of an object can be iterated over using a [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) loop:
+
+```js
+for (const property in student) {
+  console.log('avain:', property, 'arvo: ', student[property]);
+}
 ```
 
 ---
