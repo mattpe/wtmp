@@ -629,7 +629,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
     ```
 
 1. Add a button for changing the language of the menu
-1. Add a button to sort courses alphapetically and write a function for sorting:
+1. Add a button to sort courses alphabetically and write a function for sorting:
     - Takes two arguments: menu array and order (asc/desc)
     - Returns a sorted array
 1. Add a button that picks a random dish from the array and displays it
@@ -638,8 +638,8 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 ### Task 4 - Dummy lunch menu 2
 
 1. Continue the previous task (3)
-1. Create a new branch called _week1-task3_ and checkout it (`git checkout -b week1-task3`)
-1. Replace harcoded menu arrays with a static json file
+1. Create a new branch called _week1-task4_ and checkout it (`git checkout -b week1-task4`)
+1. Replace hardcoded menu arrays with a static json file
     - copy [this json file](https://github.com/mattpe/wtmp/blob/master/assets/sodexo-day-example.json) into your project folder
     - use import syntax for loading the json data:
 
