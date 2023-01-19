@@ -449,7 +449,7 @@ Execute all the statements and call all the functions (with test parameters) and
 1. Add Karaportti student restaurant's lunch menu to your site, create a new module for Fazer data, json files:
     - Finnish: <https://raw.githubusercontent.com/mattpe/wtmp/master/assets/fazer-week-example.json>
     - English: <https://raw.githubusercontent.com/mattpe/wtmp/master/assets/fazer-week-example-en.json>
-    - _Note_: these json files contain data for the whole week, choose just the data for one of the days 
+    - _Note_: these json files contain data for the whole week, choose the menu for a one day only 
 1. Bonus: Add some of the data manipulation features created in the previous task or develop new ones
 1. Push task branch to Github and return direct link to Oma.
 1. Deploy your lunch menu website to your home folder (_users.metropolia.fi_) and return link to Oma.
