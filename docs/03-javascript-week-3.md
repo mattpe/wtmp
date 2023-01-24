@@ -329,7 +329,7 @@ Example usage in HTML `<head>` element:
 
 ### Workbox
 
-<https://developers.google.com/web/tools/workbox>
+<https://developer.chrome.com/docs/workbox/>
 
 Workbox is a library that bakes in a set of best practices and removes the boilerplate every developer writes when working with service workers.
 
@@ -340,7 +340,7 @@ Workbox is a library that bakes in a set of best practices and removes the boile
 - Background sync
 - Helpful debugging
 
-[A plugin](https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin) for webpack available.
+[A plugin](https://developer.chrome.com/docs/workbox/modules/workbox-webpack-plugin/) for webpack available.
 
 ---
 
