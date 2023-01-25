@@ -28,15 +28,11 @@ Press _ctrl-shift-x_ or click extensions icon on the left panel.
 
 Search and install:
 
+- Prettier: Code formatter
 - EditorConfig for VS Code
 - Auto Import
 - ESLint
 - JavaScript (ES6) Code Snippets
-
-Other handy extensions:
-
-- Duplicate file: Add _right-click -> Duplicate file_ action
-- Prettier: Code formatter
 
 #### VSCode - Basic Usage
 
@@ -44,13 +40,13 @@ Active **project** is the folder open on the left side panel (_File -> Open fold
 
 Handy keyboard shortcuts (finnish layout, check _File -> Preferences -> Keyboard shortcuts_ for more)
 
+- [Command palette](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_command-palette): _ctrl-shift-p_ | ⇧⌘P
 - Multiline comment: _ctrl-'_
 - Delete line: _ctrl-shift-k_
 - Move line(s): _alt-up/down_
 - Copy line(s): _alt-shift-up/down_
 - Auto format code: _alt-shift-f_
 - Open integrated console: _ctrl-ö_
-- [Command palette](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_command-palette): _ctrl-shift-p_
 - Quick find/open files: _ctrl-p_
 - Split editor: _ctrl-§_
 

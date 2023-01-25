@@ -487,32 +487,37 @@ Javascript allows for object definitions “on-the-fly”, ie. it is not mandato
 It probably makes sense to use Javascript class mechanism when objects are used in the application extensively. We will take a look at classes later on.
 
 ```js
-let student = {
+const student = {
   name: 'Jill',
   credits: 90,
   active: true
 };
-{ name: 'Jill', credits: 90, active: true }
+// => { name: 'Jill', credits: 90, active: true }
 
 student.credits++;
 student.active = false;
-{ name: 'Jill', credits: 91, active: false }
+// => { name: 'Jill', credits: 91, active: false }
 
 student.address = {
   street: 'Learning Road',
   zip: 1010101
 };
-{
-  name: 'Jill',
-  credits: 91,
-  active: false,
-  address: {
-    street: 'Learning Road',
-    zip: 1010101
-  }
-}
+// =>
+// {
+//   name: 'Jill',
+//   credits: 91,
+//   active: false,
+//   address: {
+//     street: 'Learning Road',
+//     zip: 1010101
+//   }
+// }
 console.log(student.address.zip);
-1010101
+// => 1010101
+
+for (const property in student) {
+  console.log('property name:', property, '| value: ', student[property]);
+}
 ```
 
 ### Iterating object properties using for-in loop
