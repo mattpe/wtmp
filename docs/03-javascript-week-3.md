@@ -380,7 +380,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 1. Create a new branch called _week3-task3_ and checkout it
 1. Follow the instructions at to add pwa support to webpack config: <https://webpack.js.org/guides/progressive-web-application/>
     - Install Workbox webpack plugin `npm install workbox-webpack-plugin --save-dev`
-    - Add the plugin to your webpack common config:
+    - Add the plugin to your webpack config (common or production only):
 
       ```js
       const WorkboxPlugin = require('workbox-webpack-plugin');
@@ -441,4 +441,8 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 1. build, upload to the web server and test home screen installation with a mobile device
     - use _https_ protocol and a PWA capable browser (e.g.Chrome)
 
-**Note:** If you want to continue your app developlment without PWA functionality e.g. in other branch, you must clear browser's cache and unregister the service worker. Check also: [Tools for PWA Developers](https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers)
+**Note:** When you want to continue developing your app's features without the PWA functionality e.g. in other branch, you must clear browser's cache and unregister the service worker. Check Chrome dev tools docs: [Debug Progressive Web Apps](https://developer.chrome.com/docs/devtools/progressive-web-apps/)
+
+**Tip:** If you need to pass values from Webpack config to your application code (e.g. for conditional registering of service workers), use [DefinePlugin](https://webpack.js.org/plugins/define-plugin/).
+
+Check also: [Learn PWA](https://web.dev/learn/pwa/)
