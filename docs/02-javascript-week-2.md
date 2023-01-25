@@ -446,9 +446,10 @@ Execute all the statements and call all the functions (with test parameters) and
     - Create a subfolder called `modules/` and place all your module files there
     - Move code related to Sodexo data usage to a new module called e.g. `SodexoData`
     - use PascalCase for module names and kebab-case for filenames ([Case styles](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841))
-1. Add Fazer's lunch menu to your site, create a new module for Fazer data, json files:
+1. Add Karaportti student restaurant's lunch menu to your site, create a new module for Fazer data, json files:
     - Finnish: <https://raw.githubusercontent.com/mattpe/wtmp/master/assets/fazer-week-example.json>
     - English: <https://raw.githubusercontent.com/mattpe/wtmp/master/assets/fazer-week-example-en.json>
+    - _Note_: these json files contain data for the whole week, choose the menu for a one day only 
 1. Bonus: Add some of the data manipulation features created in the previous task or develop new ones
 1. Push task branch to Github and return direct link to Oma.
 1. Deploy your lunch menu website to your home folder (_users.metropolia.fi_) and return link to Oma.
