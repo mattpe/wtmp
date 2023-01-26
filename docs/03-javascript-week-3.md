@@ -380,7 +380,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 1. Create a new branch called _week3-task3_ and checkout it
 1. Follow the instructions at to add pwa support to webpack config: <https://webpack.js.org/guides/progressive-web-application/>
     - Install Workbox webpack plugin `npm install workbox-webpack-plugin --save-dev`
-    - Add the plugin to your webpack config (common or production only):
+    - Add the plugin into the `plugins: [ ... ]` array your webpack config (common or production only):
 
       ```js
       const WorkboxPlugin = require('workbox-webpack-plugin');
@@ -415,10 +415,11 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 
 1. Create a manifest file
     - install [webpack plugin](https://www.npmjs.com/package/webpack-pwa-manifest) `npm install --save-dev webpack-pwa-manifest`
-    - Add the plugin to your webpack common config:
+    - Add the plugin into the `plugins: [ ... ]` array your webpack config (common or production only):
 
       ```js
       const WebpackPwaManifest = require('webpack-pwa-manifest');
+      ...
       ...
       new WebpackPwaManifest({
         name: 'Lunch Progressive Web App',
@@ -438,8 +439,9 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 
 1. Add `icon.png` file into `assets/` folder. Any png with size 512x512 pixels will do
 1. Use your responsive/mobile html/css layout
-1. build, upload to the web server and test home screen installation with a mobile device
+1. Build and publish your app: (`npm run build`), upload contents of the `dist/` folder to the web server (e.g. _users.metropolia.fi_) and test home screen installation with a mobile device
     - use _https_ protocol and a PWA capable browser (e.g.Chrome)
+    - NOTE: check that the relative paths of _manifest.xxxxx.json_ in _dist/index.html_ and icon files in _manifest.xxxxx.json_ are injected/generated correctly before uploading
 
 **Note:** When you want to continue developing your app's features without the PWA functionality e.g. in other branch, you must clear browser's cache and unregister the service worker. Check Chrome dev tools docs: [Debug Progressive Web Apps](https://developer.chrome.com/docs/devtools/progressive-web-apps/)
 
