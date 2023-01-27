@@ -380,7 +380,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 1. Create a new branch called _week3-task3_ and checkout it
 1. Follow the instructions at to add pwa support to webpack config: <https://webpack.js.org/guides/progressive-web-application/>
     - Install Workbox webpack plugin `npm install workbox-webpack-plugin --save-dev`
-    - Add the plugin into the `plugins: [ ... ]` array your webpack config (common or production only):
+    - Add the plugin into the `plugins: [ ... ]` array in your webpack config file (common or production only):
 
       ```js
       const WorkboxPlugin = require('workbox-webpack-plugin');
@@ -415,7 +415,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
 
 1. Create a manifest file
     - install [webpack plugin](https://www.npmjs.com/package/webpack-pwa-manifest) `npm install --save-dev webpack-pwa-manifest`
-    - Add the plugin into the `plugins: [ ... ]` array your webpack config (common or production only):
+    - Add the plugin into the `plugins: [ ... ]` array in your webpack config file (common or production only):
 
       ```js
       const WebpackPwaManifest = require('webpack-pwa-manifest');
