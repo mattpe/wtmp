@@ -427,6 +427,7 @@ Use the [WTMP Starter](https://github.com/mattpe/wtmp-starter) boilerplate as a 
         description: 'Describe your Progressive Web App here',
         background_color: '#ffffff',
         crossorigin: 'use-credentials',
+        publicPath: '.',
         icons: [
           {
             src: path.resolve('src/assets/icon.png'),
