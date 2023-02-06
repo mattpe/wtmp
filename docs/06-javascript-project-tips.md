@@ -2,7 +2,7 @@
 
 ## Adding [SASS](https://sass-lang.com/) to webpack project
 
-1. Install packages: `npm install --save-dev node-sass style-loader css-loader sass-loader@^10.1.1`
+1. Install packages: `npm install --save-dev sass style-loader css-loader sass-loader`
 1. Add config to `webpack.common.js`:
 
     ```js
