@@ -27,17 +27,7 @@
 1. Create folder `src/styles` and move your css files there
 1. Rename the files by changing the file extensions: _*.css -> *.scss_
 1. Fix image file paths inside _.scss_ files
-1. Add media queries to _scss_ files, example for a widescreen specific file:
-
-    ```scss
-    @media screen and (min-width: 1100px) {
-      nav, header, main {
-          max-width: 1100px;
-          margin: auto;
-      }
-    }
-    ```
-
+1. Use SASS features in your _styles.scss_
 1. Import sass styles to your app in _index.js_, e.g: `import './styles/style.scss';`
 1. Remove `<link rel="stylesheet"..... />` elements from _index.html_
 1. Try it out: `npm start`
